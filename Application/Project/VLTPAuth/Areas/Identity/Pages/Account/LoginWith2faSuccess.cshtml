@@ -1,0 +1,19 @@
+@page
+@model LoginWith2faModelSuccessModel
+
+@{
+    ViewData["Title"] = "VLTP Employee Login";
+}
+
+<h2>@ViewData["Title"]</h2>
+<div class="row">
+    <div class="col-md-4">
+        <section>
+          <div style="font-size:large;color:red;">Success!!</div>  
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
