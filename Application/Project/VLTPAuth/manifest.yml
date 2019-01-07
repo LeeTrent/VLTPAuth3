@@ -1,0 +1,7 @@
+---
+applications:
+- name: vltpauth
+  random-route: false
+  memory: 1024M
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
